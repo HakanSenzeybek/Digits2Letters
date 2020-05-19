@@ -1,0 +1,109 @@
+OgrNo = input('Lütfen Öğrenci Numaranızı Giriniz.\n');
+if OgrNo == 0 
+    RastgeleHarf = randi(3);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'X';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'W';
+    end
+    if RastgeleHarf == 3 
+        RastgeleHarf = 'Q';
+    end
+end
+if OgrNo == 1 
+    RastgeleHarf = randi(3);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'A';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'J';
+    end
+    if RastgeleHarf == 3 
+        RastgeleHarf = 'S';
+    end
+end
+if OgrNo == 2 
+    RastgeleHarf = randi(3);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'B';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'K';
+    end
+    if RastgeleHarf == 3 
+        RastgeleHarf = 'T';
+    end
+end
+if OgrNo == 3 
+    RastgeleHarf = randi(3);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'C';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'L';
+    end
+    if RastgeleHarf == 3 
+        RastgeleHarf = 'U';
+    end
+end
+if OgrNo == 4 
+    RastgeleHarf = randi(3);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'D';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'M';
+    end
+    if RastgeleHarf == 3 
+        RastgeleHarf = 'V';
+    end
+end
+if OgrNo == 5 
+    RastgeleHarf = randi(2);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'E';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'N';
+    end
+end
+if OgrNo == 6 
+    RastgeleHarf = randi(2);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'F';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'O';
+    end
+end
+if OgrNo == 7 
+    RastgeleHarf = randi(3);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'G';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'P';
+    end
+    if RastgeleHarf == 3 
+        RastgeleHarf = 'Y';
+    end
+end
+if OgrNo == 8 
+    RastgeleHarf = randi(2);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'H';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'Z';
+    end
+end
+if OgrNo == 9 
+    RastgeleHarf = randi(2);
+    if RastgeleHarf == 1 
+        RastgeleHarf = 'I';
+    end
+    if RastgeleHarf == 2 
+        RastgeleHarf = 'R';
+    end
+end
