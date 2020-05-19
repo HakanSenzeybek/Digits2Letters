@@ -1,109 +1,1128 @@
 OgrNo = input('Lütfen Öğrenci Numaranızı Giriniz.\n');
-if OgrNo == 0 
-    RastgeleHarf = randi(3);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'X';
+OgrNoVektorel=str2double(regexp(num2str(OgrNo),'\d','match'));
+if  length(OgrNoVektorel) == 10
+for i=1:5
+if OgrNoVektorel(1) == 0 
+    R1 = randi(3);
+    if R1 == 1 
+        R1 = 'X';
     end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'W';
+    if R1 == 2 
+        R1 = 'W';
     end
-    if RastgeleHarf == 3 
-        RastgeleHarf = 'Q';
-    end
-end
-if OgrNo == 1 
-    RastgeleHarf = randi(3);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'A';
-    end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'J';
-    end
-    if RastgeleHarf == 3 
-        RastgeleHarf = 'S';
+    if R1 == 3 
+        R1 = 'Q';
     end
 end
-if OgrNo == 2 
-    RastgeleHarf = randi(3);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'B';
+if OgrNoVektorel(1) == 1 
+    R1 = randi(3);
+    if R1 == 1 
+        R1 = 'A';
     end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'K';
+    if R1 == 2 
+        R1 = 'J';
     end
-    if RastgeleHarf == 3 
-        RastgeleHarf = 'T';
-    end
-end
-if OgrNo == 3 
-    RastgeleHarf = randi(3);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'C';
-    end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'L';
-    end
-    if RastgeleHarf == 3 
-        RastgeleHarf = 'U';
+    if R1 == 3 
+        R1 = 'S';
     end
 end
-if OgrNo == 4 
-    RastgeleHarf = randi(3);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'D';
+if OgrNoVektorel(1) == 2 
+    R1 = randi(3);
+    if R1 == 1 
+        R1 = 'B';
     end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'M';
+    if R1 == 2 
+        R1 = 'K';
     end
-    if RastgeleHarf == 3 
-        RastgeleHarf = 'V';
-    end
-end
-if OgrNo == 5 
-    RastgeleHarf = randi(2);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'E';
-    end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'N';
+    if R1 == 3 
+        R1 = 'T';
     end
 end
-if OgrNo == 6 
-    RastgeleHarf = randi(2);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'F';
+if OgrNoVektorel(1) == 3 
+    R1 = randi(3);
+    if R1 == 1 
+        R1 = 'C';
     end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'O';
+    if R1 == 2 
+        R1 = 'L';
     end
-end
-if OgrNo == 7 
-    RastgeleHarf = randi(3);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'G';
-    end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'P';
-    end
-    if RastgeleHarf == 3 
-        RastgeleHarf = 'Y';
+    if R1 == 3 
+        R1 = 'U';
     end
 end
-if OgrNo == 8 
-    RastgeleHarf = randi(2);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'H';
+if OgrNoVektorel(1) == 4 
+    R1 = randi(3);
+    if R1 == 1 
+        R1 = 'D';
     end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'Z';
+    if R1 == 2 
+        R1 = 'M';
+    end
+    if R1 == 3 
+        R1 = 'V';
     end
 end
-if OgrNo == 9 
-    RastgeleHarf = randi(2);
-    if RastgeleHarf == 1 
-        RastgeleHarf = 'I';
+if OgrNoVektorel(1) == 5 
+    R1 = randi(2);
+    if R1 == 1 
+        R1 = 'E';
     end
-    if RastgeleHarf == 2 
-        RastgeleHarf = 'R';
+    if R1 == 2 
+        R1 = 'N';
     end
+end
+if OgrNoVektorel(1) == 6 
+    R1 = randi(2);
+    if R1 == 1 
+        R1 = 'F';
+    end
+    if R1 == 2 
+        R1 = 'O';
+    end
+end
+if OgrNoVektorel(1) == 7 
+    R1 = randi(3);
+    if R1 == 1 
+        R1 = 'G';
+    end
+    if R1 == 2 
+        R1 = 'P';
+    end
+    if R1 == 3 
+        R1 = 'Y';
+    end
+end
+if OgrNoVektorel(1) == 8 
+    R1 = randi(2);
+    if R1 == 1 
+        R1 = 'H';
+    end
+    if R1 == 2 
+        R1 = 'Z';
+    end
+end
+if OgrNoVektorel(1) == 9 
+    R1 = randi(2);
+    if R1 == 1 
+        R1 = 'I';
+    end
+    if R1 == 2 
+        R1 = 'R';
+    end
+end
+
+
+
+
+
+
+if OgrNoVektorel(2) == 0 
+    R2 = randi(3);
+    if R2 == 1 
+        R2 = 'X';
+    end
+    if R2 == 2 
+        R2 = 'W';
+    end
+    if R2 == 3 
+        R2 = 'Q';
+    end
+end
+if OgrNoVektorel(2) == 1 
+    R2 = randi(3);
+    if R2 == 1 
+        R2 = 'A';
+    end
+    if R2 == 2 
+        R2 = 'J';
+    end
+    if R2 == 3 
+        R2 = 'S';
+    end
+end
+if OgrNoVektorel(2) == 2 
+    R2 = randi(3);
+    if R2 == 1 
+        R2 = 'B';
+    end
+    if R2 == 2 
+        R2 = 'K';
+    end
+    if R2 == 3 
+        R2 = 'T';
+    end
+end
+if OgrNoVektorel(2) == 3 
+    R2 = randi(3);
+    if R2 == 1 
+        R2 = 'C';
+    end
+    if R2 == 2 
+        R2 = 'L';
+    end
+    if R2 == 3 
+        R2 = 'U';
+    end
+end
+if OgrNoVektorel(2) == 4 
+    R2 = randi(3);
+    if R2 == 1 
+        R2 = 'D';
+    end
+    if R2 == 2 
+        R2 = 'M';
+    end
+    if R2 == 3 
+        R2 = 'V';
+    end
+end
+if OgrNoVektorel(2) == 5 
+    R2 = randi(2);
+    if R2 == 1 
+        R2 = 'E';
+    end
+    if R2 == 2 
+        R2 = 'N';
+    end
+end
+if OgrNoVektorel(2) == 6 
+    R2 = randi(2);
+    if R2 == 1 
+        R2 = 'F';
+    end
+    if R2 == 2 
+        R2 = 'O';
+    end
+end
+if OgrNoVektorel(2) == 7 
+    R2 = randi(3);
+    if R2 == 1 
+        R2 = 'G';
+    end
+    if R2 == 2 
+        R2 = 'P';
+    end
+    if R2 == 3 
+        R2 = 'Y';
+    end
+end
+if OgrNoVektorel(2) == 8 
+    R2 = randi(2);
+    if R2 == 1 
+        R2 = 'H';
+    end
+    if R2 == 2 
+        R2 = 'Z';
+    end
+end
+if OgrNoVektorel(2) == 9 
+    R2 = randi(2);
+    if R2 == 1 
+        R2 = 'I';
+    end
+    if R2 == 2 
+        R2 = 'R';
+    end
+end
+
+
+
+
+
+
+if OgrNoVektorel(3) == 0 
+    R3 = randi(3);
+    if R3 == 1 
+        R3 = 'X';
+    end
+    if R3 == 2 
+        R3 = 'W';
+    end
+    if R3 == 3 
+        R3 = 'Q';
+    end
+end
+if OgrNoVektorel(3) == 1 
+    R3 = randi(3);
+    if R3 == 1 
+        R3 = 'A';
+    end
+    if R3 == 2 
+        R3 = 'J';
+    end
+    if R3 == 3 
+        R3 = 'S';
+    end
+end
+if OgrNoVektorel(3) == 2 
+    R3 = randi(3);
+    if R3 == 1 
+        R3 = 'B';
+    end
+    if R3 == 2 
+        R3 = 'K';
+    end
+    if R3 == 3 
+        R3 = 'T';
+    end
+end
+if OgrNoVektorel(3) == 3 
+    R3 = randi(3);
+    if R3 == 1 
+        R3 = 'C';
+    end
+    if R3 == 2 
+        R3 = 'L';
+    end
+    if R3 == 3 
+        R3 = 'U';
+    end
+end
+if OgrNoVektorel(3) == 4 
+    R3 = randi(3);
+    if R3 == 1 
+        R3 = 'D';
+    end
+    if R3 == 2 
+        R3 = 'M';
+    end
+    if R3 == 3 
+        R3 = 'V';
+    end
+end
+if OgrNoVektorel(3) == 5 
+    R3 = randi(2);
+    if R3 == 1 
+        R3 = 'E';
+    end
+    if R3 == 2 
+        R3 = 'N';
+    end
+end
+if OgrNoVektorel(3) == 6 
+    R3 = randi(2);
+    if R3 == 1 
+        R3 = 'F';
+    end
+    if R3 == 2 
+        R3 = 'O';
+    end
+end
+if OgrNoVektorel(3) == 7 
+    R3 = randi(3);
+    if R3 == 1 
+        R3 = 'G';
+    end
+    if R3 == 2 
+        R3 = 'P';
+    end
+    if R3 == 3 
+        R3 = 'Y';
+    end
+end
+if OgrNoVektorel(3) == 8 
+    R3 = randi(2);
+    if R3 == 1 
+        R3 = 'H';
+    end
+    if R3 == 2 
+        R3 = 'Z';
+    end
+end
+if OgrNoVektorel(3) == 9 
+    R3 = randi(2);
+    if R3 == 1 
+        R3 = 'I';
+    end
+    if R3 == 2 
+        R3 = 'R';
+    end
+end
+
+
+
+if OgrNoVektorel(4) == 0 
+    R4 = randi(3);
+    if R4 == 1 
+        R4 = 'X';
+    end
+    if R4 == 2 
+        R4 = 'W';
+    end
+    if R4 == 3 
+        R4 = 'Q';
+    end
+end
+if OgrNoVektorel(4) == 1 
+    R4 = randi(3);
+    if R4 == 1 
+        R4 = 'A';
+    end
+    if R4 == 2 
+        R4 = 'J';
+    end
+    if R4 == 3 
+        R4 = 'S';
+    end
+end
+if OgrNoVektorel(4) == 2 
+    R4 = randi(3);
+    if R4 == 1 
+        R4 = 'B';
+    end
+    if R4 == 2 
+        R4 = 'K';
+    end
+    if R4 == 3 
+        R4 = 'T';
+    end
+end
+if OgrNoVektorel(4) == 3 
+    R4 = randi(3);
+    if R4 == 1 
+        R4 = 'C';
+    end
+    if R4 == 2 
+        R4 = 'L';
+    end
+    if R4 == 3 
+        R4 = 'U';
+    end
+end
+if OgrNoVektorel(4) == 4 
+    R4 = randi(3);
+    if R4 == 1 
+        R4 = 'D';
+    end
+    if R4 == 2 
+        R4 = 'M';
+    end
+    if R4 == 3 
+        R4 = 'V';
+    end
+end
+if OgrNoVektorel(4) == 5 
+    R4 = randi(2);
+    if R4 == 1 
+        R4 = 'E';
+    end
+    if R4 == 2 
+        R4 = 'N';
+    end
+end
+if OgrNoVektorel(4) == 6 
+    R4 = randi(2);
+    if R4 == 1 
+        R4 = 'F';
+    end
+    if R4 == 2 
+        R4 = 'O';
+    end
+end
+if OgrNoVektorel(4) == 7 
+    R4 = randi(3);
+    if R4 == 1 
+        R4 = 'G';
+    end
+    if R4 == 2 
+        R4 = 'P';
+    end
+    if R4 == 3 
+        R4 = 'Y';
+    end
+end
+if OgrNoVektorel(4) == 8 
+    R4 = randi(2);
+    if R4 == 1 
+        R4 = 'H';
+    end
+    if R4 == 2 
+        R4 = 'Z';
+    end
+end
+if OgrNoVektorel(4) == 9 
+    R4 = randi(2);
+    if R4 == 1 
+        R4 = 'I';
+    end
+    if R4 == 2 
+        R4 = 'R';
+    end
+end
+
+
+
+
+
+if OgrNoVektorel(5) == 0 
+    R5 = randi(3);
+    if R5 == 1 
+        R5 = 'X';
+    end
+    if R5 == 2 
+        R5 = 'W';
+    end
+    if R5 == 3 
+        R5 = 'Q';
+    end
+end
+if OgrNoVektorel(5) == 1 
+    R5 = randi(3);
+    if R5 == 1 
+        R5 = 'A';
+    end
+    if R5 == 2 
+        R5 = 'J';
+    end
+    if R5 == 3 
+        R5 = 'S';
+    end
+end
+if OgrNoVektorel(5) == 2 
+    R5 = randi(3);
+    if R5 == 1 
+        R5 = 'B';
+    end
+    if R5 == 2 
+        R5 = 'K';
+    end
+    if R5 == 3 
+        R5 = 'T';
+    end
+end
+if OgrNoVektorel(5) == 3 
+    R5 = randi(3);
+    if R5 == 1 
+        R5 = 'C';
+    end
+    if R5 == 2 
+        R5 = 'L';
+    end
+    if R5 == 3 
+        R5 = 'U';
+    end
+end
+if OgrNoVektorel(5) == 4 
+    R5 = randi(3);
+    if R5 == 1 
+        R5 = 'D';
+    end
+    if R5 == 2 
+        R5 = 'M';
+    end
+    if R5 == 3 
+        R5 = 'V';
+    end
+end
+if OgrNoVektorel(5) == 5 
+    R5 = randi(2);
+    if R5 == 1 
+        R5 = 'E';
+    end
+    if R5 == 2 
+        R5 = 'N';
+    end
+end
+if OgrNoVektorel(5) == 6 
+    R5 = randi(2);
+    if R5 == 1 
+        R5 = 'F';
+    end
+    if R5 == 2 
+        R5 = 'O';
+    end
+end
+if OgrNoVektorel(5) == 7 
+    R5 = randi(3);
+    if R5 == 1 
+        R5 = 'G';
+    end
+    if R5 == 2 
+        R5 = 'P';
+    end
+    if R5 == 3 
+        R5 = 'Y';
+    end
+end
+if OgrNoVektorel(5) == 8 
+    R5 = randi(2);
+    if R5 == 1 
+        R5 = 'H';
+    end
+    if R5 == 2 
+        R5 = 'Z';
+    end
+end
+if OgrNoVektorel(5) == 9 
+    R5 = randi(2);
+    if R5 == 1 
+        R5 = 'I';
+    end
+    if R5 == 2 
+        R5 = 'R';
+    end
+end
+
+
+
+
+if OgrNoVektorel(6) == 0 
+    R6 = randi(3);
+    if R6 == 1 
+        R6 = 'X';
+    end
+    if R6 == 2 
+        R6 = 'W';
+    end
+    if R6 == 3 
+        R6 = 'Q';
+    end
+end
+if OgrNoVektorel(6) == 1 
+    R6 = randi(3);
+    if R6 == 1 
+        R6 = 'A';
+    end
+    if R6 == 2 
+        R6 = 'J';
+    end
+    if R6 == 3 
+        R6 = 'S';
+    end
+end
+if OgrNoVektorel(6) == 2 
+    R6 = randi(3);
+    if R6 == 1 
+        R6 = 'B';
+    end
+    if R6 == 2 
+        R6 = 'K';
+    end
+    if R6 == 3 
+        R6 = 'T';
+    end
+end
+if OgrNoVektorel(6) == 3 
+    R6 = randi(3);
+    if R6 == 1 
+        R6 = 'C';
+    end
+    if R6 == 2 
+        R6 = 'L';
+    end
+    if R6 == 3 
+        R6 = 'U';
+    end
+end
+if OgrNoVektorel(6) == 4 
+    R6 = randi(3);
+    if R6 == 1 
+        R6 = 'D';
+    end
+    if R6 == 2 
+        R6 = 'M';
+    end
+    if R6 == 3 
+        R6 = 'V';
+    end
+end
+if OgrNoVektorel(6) == 5 
+    R6 = randi(2);
+    if R6 == 1 
+        R6 = 'E';
+    end
+    if R6 == 2 
+        R6 = 'N';
+    end
+end
+if OgrNoVektorel(6) == 6 
+    R6 = randi(2);
+    if R6 == 1 
+        R6 = 'F';
+    end
+    if R6 == 2 
+        R6 = 'O';
+    end
+end
+if OgrNoVektorel(6) == 7 
+    R6 = randi(3);
+    if R6 == 1 
+        R6 = 'G';
+    end
+    if R6 == 2 
+        R6 = 'P';
+    end
+    if R6 == 3 
+        R6 = 'Y';
+    end
+end
+if OgrNoVektorel(6) == 8 
+    R6 = randi(2);
+    if R6 == 1 
+        R6 = 'H';
+    end
+    if R6 == 2 
+        R6 = 'Z';
+    end
+end
+if OgrNoVektorel(6) == 9 
+    R6 = randi(2);
+    if R6 == 1 
+        R6 = 'I';
+    end
+    if R6 == 2 
+        R6 = 'R';
+    end
+end
+
+
+
+
+if OgrNoVektorel(7) == 0 
+    R7 = randi(3);
+    if R7 == 1 
+        R7 = 'X';
+    end
+    if R7 == 2 
+        R7 = 'W';
+    end
+    if R7 == 3 
+        R7 = 'Q';
+    end
+end
+if OgrNoVektorel(7) == 1 
+    R7 = randi(3);
+    if R7 == 1 
+        R7 = 'A';
+    end
+    if R7 == 2 
+        R7 = 'J';
+    end
+    if R7 == 3 
+        R7 = 'S';
+    end
+end
+if OgrNoVektorel(7) == 2 
+    R7 = randi(3);
+    if R7 == 1 
+        R7 = 'B';
+    end
+    if R7 == 2 
+        R7 = 'K';
+    end
+    if R7 == 3 
+        R7 = 'T';
+    end
+end
+if OgrNoVektorel(7) == 3 
+    R7 = randi(3);
+    if R7 == 1 
+        R7 = 'C';
+    end
+    if R7 == 2 
+        R7 = 'L';
+    end
+    if R7 == 3 
+        R7 = 'U';
+    end
+end
+if OgrNoVektorel(7) == 4 
+    R7 = randi(3);
+    if R7 == 1 
+        R7 = 'D';
+    end
+    if R7 == 2 
+        R7 = 'M';
+    end
+    if R7 == 3 
+        R7 = 'V';
+    end
+end
+if OgrNoVektorel(7) == 5 
+    R7 = randi(2);
+    if R7 == 1 
+        R7 = 'E';
+    end
+    if R7 == 2 
+        R7 = 'N';
+    end
+end
+if OgrNoVektorel(7) == 6 
+    R7 = randi(2);
+    if R7 == 1 
+        R7 = 'F';
+    end
+    if R7 == 2 
+        R7 = 'O';
+    end
+end
+if OgrNoVektorel(7) == 7 
+    R7 = randi(3);
+    if R7 == 1 
+        R7 = 'G';
+    end
+    if R7 == 2 
+        R7 = 'P';
+    end
+    if R7 == 3 
+        R7 = 'Y';
+    end
+end
+if OgrNoVektorel(7) == 8 
+    R7 = randi(2);
+    if R7 == 1 
+        R7 = 'H';
+    end
+    if R7 == 2 
+        R7 = 'Z';
+    end
+end
+if OgrNoVektorel(7) == 9 
+    R7 = randi(2);
+    if R7 == 1 
+        R7 = 'I';
+    end
+    if R7 == 2 
+        R7 = 'R';
+    end
+end
+
+
+
+
+
+if OgrNoVektorel(8) == 0 
+    R8 = randi(3);
+    if R8 == 1 
+        R8 = 'X';
+    end
+    if R8 == 2 
+        R8 = 'W';
+    end
+    if R8 == 3 
+        R8 = 'Q';
+    end
+end
+if OgrNoVektorel(8) == 1 
+    R8 = randi(3);
+    if R8 == 1 
+        R8 = 'A';
+    end
+    if R8 == 2 
+        R8 = 'J';
+    end
+    if R8 == 3 
+        R8 = 'S';
+    end
+end
+if OgrNoVektorel(8) == 2 
+    R8 = randi(3);
+    if R8 == 1 
+        R8 = 'B';
+    end
+    if R8 == 2 
+        R8 = 'K';
+    end
+    if R8 == 3 
+        R8 = 'T';
+    end
+end
+if OgrNoVektorel(8) == 3 
+    R8 = randi(3);
+    if R8 == 1 
+        R8 = 'C';
+    end
+    if R8 == 2 
+        R8 = 'L';
+    end
+    if R8 == 3 
+        R8 = 'U';
+    end
+end
+if OgrNoVektorel(8) == 4 
+    R8 = randi(3);
+    if R8 == 1 
+        R8 = 'D';
+    end
+    if R8 == 2 
+        R8 = 'M';
+    end
+    if R8 == 3 
+        R8 = 'V';
+    end
+end
+if OgrNoVektorel(8) == 5 
+    R8 = randi(2);
+    if R8 == 1 
+        R8 = 'E';
+    end
+    if R8 == 2 
+        R8 = 'N';
+    end
+end
+if OgrNoVektorel(8) == 6 
+    R8 = randi(2);
+    if R8 == 1 
+        R8 = 'F';
+    end
+    if R8 == 2 
+        R8 = 'O';
+    end
+end
+if OgrNoVektorel(8) == 7 
+    R8 = randi(3);
+    if R8 == 1 
+        R8 = 'G';
+    end
+    if R8 == 2 
+        R8 = 'P';
+    end
+    if R8 == 3 
+        R8 = 'Y';
+    end
+end
+if OgrNoVektorel(8) == 8 
+    R8 = randi(2);
+    if R8 == 1 
+        R8 = 'H';
+    end
+    if R8 == 2 
+        R8 = 'Z';
+    end
+end
+if OgrNoVektorel(8) == 9 
+    R8 = randi(2);
+    if R8 == 1 
+        R8 = 'I';
+    end
+    if R8 == 2 
+        R8 = 'R';
+    end
+end
+
+
+
+if OgrNoVektorel(9) == 0 
+    R9 = randi(3);
+    if R9 == 1 
+        R9 = 'X';
+    end
+    if R9 == 2 
+        R9 = 'W';
+    end
+    if R9 == 3 
+        R9 = 'Q';
+    end
+end
+if OgrNoVektorel(9) == 1 
+    R9 = randi(3);
+    if R9 == 1 
+        R9 = 'A';
+    end
+    if R9 == 2 
+        R9 = 'J';
+    end
+    if R9 == 3 
+        R9 = 'S';
+    end
+end
+if OgrNoVektorel(9) == 2 
+    R9 = randi(3);
+    if R9 == 1 
+        R9 = 'B';
+    end
+    if R9 == 2 
+        R9 = 'K';
+    end
+    if R9 == 3 
+        R9 = 'T';
+    end
+end
+if OgrNoVektorel(9) == 3 
+    R9 = randi(3);
+    if R9 == 1 
+        R9 = 'C';
+    end
+    if R9 == 2 
+        R9 = 'L';
+    end
+    if R9 == 3 
+        R9 = 'U';
+    end
+end
+if OgrNoVektorel(9) == 4 
+    R9 = randi(3);
+    if R9 == 1 
+        R9 = 'D';
+    end
+    if R9 == 2 
+        R9 = 'M';
+    end
+    if R9 == 3 
+        R9 = 'V';
+    end
+end
+if OgrNoVektorel(9) == 5 
+    R9 = randi(2);
+    if R9 == 1 
+        R9 = 'E';
+    end
+    if R9 == 2 
+        R9 = 'N';
+    end
+end
+if OgrNoVektorel(9) == 6 
+    R9 = randi(2);
+    if R9 == 1 
+        R9 = 'F';
+    end
+    if R9 == 2 
+        R9 = 'O';
+    end
+end
+if OgrNoVektorel(9) == 7 
+    R9 = randi(3);
+    if R9 == 1 
+        R9 = 'G';
+    end
+    if R9 == 2 
+        R9 = 'P';
+    end
+    if R9 == 3 
+        R9 = 'Y';
+    end
+end
+if OgrNoVektorel(9) == 8 
+    R9 = randi(2);
+    if R9 == 1 
+        R9 = 'H';
+    end
+    if R9 == 2 
+        R9 = 'Z';
+    end
+end
+if OgrNoVektorel(9) == 9 
+    R9 = randi(2);
+    if R9 == 1 
+        R9 = 'I';
+    end
+    if R9 == 2 
+        R9 = 'R';
+    end
+end
+
+
+
+if OgrNoVektorel(10) == 0 
+    R10 = randi(3);
+    if R10 == 1 
+        R10 = 'X';
+    end
+    if R10 == 2 
+        R10 = 'W';
+    end
+    if R10 == 3 
+        R10 = 'Q';
+    end
+end
+if OgrNoVektorel(10) == 1 
+    R10 = randi(3);
+    if R10 == 1 
+        R10 = 'A';
+    end
+    if R10 == 2 
+        R10 = 'J';
+    end
+    if R10 == 3 
+        R10 = 'S';
+    end
+end
+if OgrNoVektorel(10) == 2 
+    R10 = randi(3);
+    if R10 == 1 
+        R10 = 'B';
+    end
+    if R10 == 2 
+        R10 = 'K';
+    end
+    if R10 == 3 
+        R10 = 'T';
+    end
+end
+if OgrNoVektorel(10) == 3 
+    R10 = randi(3);
+    if R10 == 1 
+        R10 = 'C';
+    end
+    if R10 == 2 
+        R10 = 'L';
+    end
+    if R10 == 3 
+        R10 = 'U';
+    end
+end
+if OgrNoVektorel(10) == 4 
+    R10 = randi(3);
+    if R10 == 1 
+        R10 = 'D';
+    end
+    if R10 == 2 
+        R10 = 'M';
+    end
+    if R10 == 3 
+        R10 = 'V';
+    end
+end
+if OgrNoVektorel(10) == 5 
+    R10 = randi(2);
+    if R10 == 1 
+        R10 = 'E';
+    end
+    if R10 == 2 
+        R10 = 'N';
+    end
+end
+if OgrNoVektorel(10) == 6 
+    R10 = randi(2);
+    if R10 == 1 
+        R10 = 'F';
+    end
+    if R10 == 2 
+        R10 = 'O';
+    end
+end
+if OgrNoVektorel(10) == 7 
+    R10 = randi(3);
+    if R10 == 1 
+        R10 = 'G';
+    end
+    if R10 == 2 
+        R10 = 'P';
+    end
+    if R10 == 3 
+        R10 = 'Y';
+    end
+end
+if OgrNoVektorel(10) == 8 
+    R10 = randi(2);
+    if R10 == 1 
+        R10 = 'H';
+    end
+    if R10 == 2 
+        R10 = 'Z';
+    end
+end
+if OgrNoVektorel(10) == 9 
+    R10 = randi(2);
+    if R10 == 1 
+        R10 = 'I';
+    end
+    if R10 == 2 
+        R10 = 'R';
+    end
+end
+fprintf('%c%c%c%c%c%c%c%c%c%c \n' ,R1,R2,R3,R4,R5,R6,R7,R8,R9,R10) 
+end
+else
+    disp('Verilen Sayı Öğrenci Numarası Formatında Değildir.')
 end
